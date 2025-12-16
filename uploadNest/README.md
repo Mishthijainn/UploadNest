@@ -4,8 +4,6 @@
 VaultX is a **scalable, production-grade file storage platform** built using the **MERN stack** with **AWS S3**.  
 It enables secure file uploads, advanced file management, analytics, and provides a **custom TypeScript SDK published to npm** for seamless third-party integration.
 
-This project demonstrates **backend engineering, cloud architecture, security best practices, and developer tooling**—key skills expected in FAANG-level roles.
-
 ---
 
 ## 🚀 Features
