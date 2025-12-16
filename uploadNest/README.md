@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VaultX – Production-Ready File Storage Platform
 
 VaultX is a **scalable, production-grade file storage platform** built using the **MERN stack** with **AWS S3**.  
@@ -71,3 +72,6 @@ This project demonstrates **backend engineering, cloud architecture, security be
 - TypeScript
 - Winston & LogTail (Logging)
 - NPM (SDK Publishing)
+=======
+
+>>>>>>> 448ce9a60c18c7836abbbb9d80b38ac4ebb7516c
