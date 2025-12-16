@@ -1,54 +1,73 @@
-# 🌟 Advanced MERN FileStorage Platform - UploadNest
+# VaultX – Production-Ready File Storage Platform
 
-> This code, whether in parts or whole, is licensed for commercial use **only with a license**. It is **free for personal use**.
-> 👉 [DM to obtain license](https://x.com/techwithemma) and 👉 [here to learn more](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md)
+VaultX is a **scalable, production-grade file storage platform** built using the **MERN stack** with **AWS S3**.  
+It enables secure file uploads, advanced file management, analytics, and provides a **custom TypeScript SDK published to npm** for seamless third-party integration.
 
-## ❤️ Support the Channel
-
-Love this project? Here’s how you can support:
-
-- ☕ [Buy Me a Coffee](https://buymeacoffee.com/techwithemmaofficial)
-- 🌟 Star this repo
-- 🎥 [Subscribe on YouTube](https://tinyurl.com/subcribe-to-techwithEmma)
+This project demonstrates **backend engineering, cloud architecture, security best practices, and developer tooling**—key skills expected in FAANG-level roles.
 
 ---
 
-### 💻 Quickly Setup the Project
+## 🚀 Features
 
-> Want to setup this project? We've got you covered:
-> 👉 [Click here](https://techwithemma.gumroad.com/l/nphhyz)
+### 🔐 Authentication & Security
 
-### 📺 OR: Watch the Complete Full Course on YouTube
+- Email & password authentication using **JWT**
+- **API key–based authentication** for SDK and external API access
+- API keys are **hashed and never stored in plain text**
 
-> Learn how it all works, including the Analytics & Chart, API Keys, Zip Download and more.
-> 👉 [Watch the Course](https://www.youtube.com/watch?v=2S7Y2wewF6I)
+### ☁️ File Storage & Management
 
-## 🗝️ Key Features: 👇
+- Secure and scalable file storage using **AWS S3**
+- Support for **multiple file uploads**
+- **Bulk file download as ZIP**
+- Grid and list views for files
+- Keyword-based file search
+- Pagination for large datasets
+- Per-user storage usage tracking
 
-- 🔐 Authentication (Email + Password with JWT)
-- 📊 Analytics & Chart
-- 📤 Multiple File Uploads
-- ☁️ AWS S3 Integration for Secure & Scalable Storage
-- 💾 Storage Tracking for Each User
-- 📚 Bulk File Download as Zip
-- 📦 TypeScript SDK Published to npm
-- 🔑 API Key Authentication for Secure Access
-- 📅 Pagination & File Search
-- 📝 Logging
-- 🚀 Deployment
-- 🌐 Built with MERN Stack (Node.js, MongoDB, React 19)
-- 🎨 Styled with Tailwind v4 & Shadcn/ui
+### 📊 Analytics
 
-## 📜 License Information
+- File upload analytics for the last 30 days
+- Daily file upload and storage usage charts
+- Optimized database queries for performance
 
-A paid license is required for commercial use. To obtain a commercial license, please visit 👉 [Here](https://techwithemma.gumroad.com/l/huytmd)
+### 📦 TypeScript SDK (Published to npm)
 
-For more details about license, please refer to the [TECHWITHEMMA-LICENSE.md](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md).
+- Custom SDK built from scratch
+- Supports:
+  - Node.js
+  - React
+  - Next.js (Server Actions & API Routes)
+- Simple upload API with structured error handling
+
+### 📝 Production Readiness
+
+- Centralized logging with **Winston**
+- Production log monitoring using **LogTail**
+- Robust error handling
+- Clean and responsive UI
+- Dark / Light mode support
 
 ---
 
-# 📺 Subscribe for More Projects
+## 🛠️ Tech Stack
 
-If you find this helpful, support by subscribing and sharing:
+### Frontend
 
-🔗 [https://tinyurl.com/subcribe-to-techwithEmma](https://tinyurl.com/subcribe-to-techwithEmma)
+- React 19
+- Tailwind CSS v4
+- shadcn/ui
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT Authentication
+
+### Cloud & Tooling
+
+- AWS S3 (File Storage)
+- TypeScript
+- Winston & LogTail (Logging)
+- NPM (SDK Publishing)
